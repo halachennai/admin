@@ -19,6 +19,12 @@ const Sidebar = () => {
           <p>Product List</p>
         </div>
       </Link>
+      <Link to={"/listorders"} style={{ textDecoration: "none" }}>
+        <div className="sidebar-item">
+          <img src={list_product_icon} alt="" />
+          <p>Orders List</p>
+        </div>
+      </Link>
     </div>
   );
 };
